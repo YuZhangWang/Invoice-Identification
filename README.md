@@ -75,7 +75,7 @@
 
 <!-- ABOUT THE PROJECT -->
 # 关于
-![product-screenshot](https://gcore.jsdelivr.net/gh/YuZhangWang/Creative-pictures02/2022/04/18/20220418195159290.jpg)
+![product-screenshot](https://gcore.jsdelivr.net/gh/YuZhangWang/Creative-pictures02@master/img/202309131441743.png)
 
 这里有一个空白模板，可以开始使用： 为了避免重复输入太多的信息。用你的文本编辑器对以下内容进行搜索和替换： `YuZhangWang`, `Invoice-Identification`, `project_title`, `project_description`
 
