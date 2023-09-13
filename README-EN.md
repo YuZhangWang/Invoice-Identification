@@ -71,9 +71,9 @@
 # About
 ![product-screenshot](https://gcore.jsdelivr.net/gh/YuZhangWang/Creative-pictures02@master/img/202309131441743.png)
 
-本项目使用了[Synthetic Chinese String Dataset](https://github.com/senlinuc/caffe_ocr/tree/master/examples/ocr/densenet)数据集，总体数据量达到了**3,644,007**个
+This project used the [Synthetic Chinese String Dataset](https://github.com/senlinuc/caffe_ocr/tree/master/examples/ocr/densenet) data set, and the overall data volume reached **3,644,007**
 
-<p align="right">(<a href="#readme-top">回到顶部</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 # Configure-installationn
@@ -82,7 +82,7 @@
 
 然后就是创建Conda环境，缺什么包补什么包就行了，出了问题的话，多进行搜索，90%的问题都能解决，实在解决不了，你可以邮箱联系我，找我帮你配置一下。
 
-<p align="right">(<a href="#readme-top">回到顶部</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Instructions
 
@@ -93,14 +93,14 @@
 
 等到运行结束之后，在 *test_result/test_images* 中就可以看到两种结果，一种是图片输出形式，上面标注了对文字的识别准确度，另一种是文本形式，将识别到的内容放到了文本之中。
 
-<p align="right">(<a href="#readme-top">回到顶部</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 # Train
 
 如果需要训练的话，请下载Releases中的[VOC2007](https://github.com/YuZhangWang/Invoice-Identification/releases/tag/Training-Data-Set)，这是其中一部分所需的训练集，除此之外，[OCR_DataSet](https://github.com/WenmuZhou/OCR_DataSet)和[crnn_chinese_characters_rec](https://github.com/Sierkinhane/crnn_chinese_characters_rec)中的内容是剩余的数据集。
 
-<p align="right">(<a href="#readme-top">回到顶部</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
