@@ -25,7 +25,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/YuZhangWang/Invoice-Identification">
-    <img src="https://gcore.jsdelivr.net/gh/YuZhangWang/Creative-pictures02@master/img/202210171416164.png" alt="Logo" width="140" height="140">
+    <img src="https://gcore.jsdelivr.net/gh/YuZhangWang/Creative-pictures02@master/img/202309131528454.png" alt="Logo" width="140" height="140">
   </a>
 
 <h3 align="center">Invoice-Identification</h3>
@@ -67,9 +67,6 @@
 </details>
 
 
-
-
-
 <!-- ABOUT THE PROJECT -->
 # 关于
 ![product-screenshot](https://gcore.jsdelivr.net/gh/YuZhangWang/Creative-pictures02@master/img/202309131441743.png)
@@ -83,7 +80,7 @@
 
 这里可以跟着[Pytorch安装（包含cuda详细安装教程）](https://liuhuanhuan.blog.csdn.net/article/details/114157146)直接来，或者根据我博客中的[]()进行操作。这里我踩过坑了，跟着两个链接中的内容来，一步步来就可以配置成功。
 
-然后就是创建Conda环境，缺什么包补什么包就行了，出了问题的话，多进行搜索，90%的问题都能解决，实在解决不了了，你可以邮箱联系我，找我帮你配置一下。
+然后就是创建Conda环境，缺什么包补什么包就行了，出了问题的话，多进行搜索，90%的问题都能解决，实在解决不了，你可以邮箱联系我，找我帮你配置一下。
 
 <p align="right">(<a href="#readme-top">回到顶部</a>)</p>
 
