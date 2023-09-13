@@ -58,6 +58,7 @@
     <li><a href="#关于">关于</a></li>
     <li><a href="#配置安装">配置安装</a></li>
     <li><a href="#使用方法">使用方法</a></li>
+    <li><a href="#训练">训练</a></li>
     <li><a href="#加入这个项目">加入这个项目</a></li>
     <li><a href="#License">License</a></li>
     <li><a href="#联系作者">联系作者</a></li>
@@ -94,6 +95,13 @@
 
 
 等到运行结束之后，在 *test_result/test_images* 中就可以看到两种结果，一种是图片输出形式，上面标注了对文字的识别准确度，另一种是文本形式，将识别到的内容放到了文本之中。
+
+<p align="right">(<a href="#readme-top">回到顶部</a>)</p>
+
+
+# 训练
+
+如果需要训练的话，请下载Releases中的[VOC2007](https://github.com/YuZhangWang/Invoice-Identification/releases/tag/Training-Data-Set)，这是其中一部分所需的训练集，除此之外，[OCR_DataSet](https://github.com/WenmuZhou/OCR_DataSet)和[crnn_chinese_characters_rec](https://github.com/Sierkinhane/crnn_chinese_characters_rec)中的内容是剩余的数据集。
 
 <p align="right">(<a href="#readme-top">回到顶部</a>)</p>
 

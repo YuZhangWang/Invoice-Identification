@@ -2,20 +2,20 @@
 
 <!-- Some icon information related to the project -->
 <div align="center">
-  <a href="https://github.com/github_username/repo_name/graphs/contributors">
-        <img src="https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge" alt="">
+  <a href="https://github.com/YuZhangWang/Invoice-Identification/graphs/contributors">
+        <img src="https://img.shields.io/github/contributors/YuZhangWang/Invoice-Identification.svg?style=for-the-badge" alt="">
   </a>
-  <a href="https://github.com/github_username/repo_name/network/members">
-        <img src="https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge" alt="">
+  <a href="https://github.com/YuZhangWang/Invoice-Identification/network/members">
+        <img src="https://img.shields.io/github/forks/YuZhangWang/Invoice-Identification.svg?style=for-the-badge" alt="">
   </a>  
-  <a href="https://github.com/github_username/repo_name/stargazers">
-        <img src="https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge" alt="">
+  <a href="https://github.com/YuZhangWang/Invoice-Identification/stargazers">
+        <img src="https://img.shields.io/github/stars/YuZhangWang/Invoice-Identification.svg?style=for-the-badge" alt="">
   </a>  
-  <a href="https://github.com/github_username/repo_name/issues">
-        <img src="https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge" alt="">
+  <a href="https://github.com/YuZhangWang/Invoice-Identification/issues">
+        <img src="https://img.shields.io/github/issues/YuZhangWang/Invoice-Identification.svg?style=for-the-badge" alt="">
   </a> 
-  <a href="https://github.com/github_username/repo_name/blob/master/LICENSE.txt">
-        <img src="https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge" alt="">
+  <a href="https://github.com/YuZhangWang/Invoice-Identification/blob/master/LICENSE.txt">
+        <img src="https://img.shields.io/github/license/YuZhangWang/Invoice-Identification.svg?style=for-the-badge" alt="">
   </a>   
 </div>
 
@@ -23,7 +23,7 @@
 <!-- Project Icons -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/YuZhangWang/Invoice-Identification">
     <img src="https://gcore.jsdelivr.net/gh/YuZhangWang/Creative-pictures02@master/img/202210171416164.png" alt="Logo" width="140" height="140">
   </a>
 
