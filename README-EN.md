@@ -24,22 +24,22 @@
 <br />
 <div align="center">
   <a href="https://github.com/YuZhangWang/Invoice-Identification">
-    <img src="https://gcore.jsdelivr.net/gh/YuZhangWang/Creative-pictures02@master/img/202210171416164.png" alt="Logo" width="140" height="140">
+    <img src="https://gcore.jsdelivr.net/gh/YuZhangWang/Creative-pictures02@master/img/202309131528454.png" alt="Logo" width="140" height="140">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Invoice-Identification</h3>
 
   <p align="center">
-    project_description
+    📰 Projects based on CTPN and CRNN 
     <br />
-    <a href="https://yuzhang.wang/"><strong>Read the description document »</strong></a>
+    <a href="https://yuzhang.wang/110-ctpn-model/"><strong>Read the description document »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://www.bilibili.com/video/BV1n34y1h79n/">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/YuZhangWang/Invoice-Identification/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/YuZhangWang/Invoice-Identification/issues">Request Feature</a>
   </p>
 </div>
 
@@ -52,23 +52,12 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#About">About</a></li>
+    <li><a href="#Configure-installationn">Configure-installationn</a></li>
+    <li><a href="#Instructions">Instructions</a></li>
+    <li><a href="#Train">Train</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -79,86 +68,39 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
-![product-screenshot](https://gcore.jsdelivr.net/gh/YuZhangWang/Creative-pictures02/2022/04/18/20220418195159290.jpg)
+# About
+![product-screenshot](https://gcore.jsdelivr.net/gh/YuZhangWang/Creative-pictures02@master/img/202309131441743.png)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`,`project_title`, `project_description`
+本项目使用了[Synthetic Chinese String Dataset](https://github.com/senlinuc/caffe_ocr/tree/master/examples/ocr/densenet)数据集，总体数据量达到了**3,644,007**个
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-### Built With
-
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular.io](https://angular.io/)
-* [Svelte.dev](https://svelte.dev/)
-* [Laravel.com](https://laravel.com)
-* [Bootstrap.com](https://getbootstrap.com)
-* [JQuery.com](https://jquery.com )
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">回到顶部</a>)</p>
 
 
+# Configure-installationn
 
-<!-- GETTING STARTED -->
-## Getting Started
+这里可以跟着[Pytorch安装（包含cuda详细安装教程）](https://liuhuanhuan.blog.csdn.net/article/details/114157146)直接来，或者根据我博客中的[环境配置](https://yuzhang.wang/139-invoice-identification/#%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE)进行操作。这里我踩过坑了，跟着两个链接中的内容来，一步步来就可以配置成功。
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+然后就是创建Conda环境，缺什么包补什么包就行了，出了问题的话，多进行搜索，90%的问题都能解决，实在解决不了，你可以邮箱联系我，找我帮你配置一下。
 
-### Prerequisites
+<p align="right">(<a href="#readme-top">回到顶部</a>)</p>
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+# Instructions
 
-### Installation
+由于这里我把炼好的丹也上传上来了，所以可以直接下载。
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+下载完成之后，在 *test_images* 文件夹中放入你想要识别的的发票图片，然后运行 *demo.py* 文件，等待运行。
 
 
+等到运行结束之后，在 *test_result/test_images* 中就可以看到两种结果，一种是图片输出形式，上面标注了对文字的识别准确度，另一种是文本形式，将识别到的内容放到了文本之中。
 
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">回到顶部</a>)</p>
 
 
+# Train
 
-<!-- ROADMAP -->
-## Roadmap
+如果需要训练的话，请下载Releases中的[VOC2007](https://github.com/YuZhangWang/Invoice-Identification/releases/tag/Training-Data-Set)，这是其中一部分所需的训练集，除此之外，[OCR_DataSet](https://github.com/WenmuZhou/OCR_DataSet)和[crnn_chinese_characters_rec](https://github.com/Sierkinhane/crnn_chinese_characters_rec)中的内容是剩余的数据集。
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">回到顶部</a>)</p>
 
 
 
@@ -205,8 +147,8 @@ More contact information:
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [Awesome-Repository-Template](https://github.com/YuZhangWang/Awesome-Repository-Template)
+* [OCR_DataSet](https://github.com/WenmuZhou/OCR_DataSet)
+* [crnn_chinese_characters_rec](https://github.com/Sierkinhane/crnn_chinese_characters_rec)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

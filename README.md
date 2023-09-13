@@ -1,6 +1,5 @@
 <a name="readme-top"></a>
 
-
 <!-- 项目相关的一些图标信息 -->
 <div align="center">
   <a href="https://github.com/YuZhangWang/Invoice-Identification/graphs/contributors">
