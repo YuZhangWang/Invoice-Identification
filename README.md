@@ -55,13 +55,9 @@
 <details>
   <summary>目录</summary>
   <ol>
-    <li>
-      <a href="#开始">开始</a>
-      <ul>
-        <li><a href="#安装前提">安装前提</a></li>
-        <li><a href="#安装">安装</a></li>
-      </ul>
-    </li>
+    <li><a href="#关于">关于</a></li>
+    <li><a href="#配置安装">配置安装</a></li>
+    <li><a href="#使用方法">使用方法</a></li>
     <li><a href="#加入这个项目">加入这个项目</a></li>
     <li><a href="#liceInvoice-Identificationnse">License</a></li>
     <li><a href="#联系作者">联系作者</a></li>
@@ -82,9 +78,20 @@
 <p align="right">(<a href="#readme-top">回到顶部</a>)</p>
 
 
+# 配置安装
+
+这里可以跟着[Pytorch安装（包含cuda详细安装教程）](https://liuhuanhuan.blog.csdn.net/article/details/114157146)直接来，或者根据我博客中的[]()进行操作。这里我踩过坑了，跟着两个链接中的内容来，一步步来就可以配置成功。
+
+然后就是创建Conda环境，缺什么包补什么包就行了，出了问题的话，多进行搜索，90%的问题都能解决，实在解决不了了，你可以邮箱联系我，找我帮你配置一下。
+
+# 使用方法
+
+由于这里我把炼好的丹也上传上来了，所以可以直接下载。
+
+下载完成之后，在 *test_images* 文件夹中放入你想要识别的的发票图片，然后运行 *demo.py* 文件，等待运行。
 
 
-
+等到运行结束之后，在 *test_result/test_images* 中就可以看到两种结果，一种是图片输出形式，上面标注了对文字的识别准确度，另一种是文本形式，将识别到的内容放到了文本之中。
 
 
 
