@@ -77,7 +77,7 @@
 # 关于
 ![product-screenshot](https://gcore.jsdelivr.net/gh/YuZhangWang/Creative-pictures02@master/img/202309131441743.png)
 
-这里有一个空白模板，可以开始使用： 为了避免重复输入太多的信息。用你的文本编辑器对以下内容进行搜索和替换： `YuZhangWang`, `Invoice-Identification`, `project_title`, `project_description`
+本项目使用了[Synthetic Chinese String Dataset](https://github.com/senlinuc/caffe_ocr/tree/master/examples/ocr/densenet)数据集，总体数据量达到了**3,644,007**个
 
 <p align="right">(<a href="#readme-top">回到顶部</a>)</p>
 
