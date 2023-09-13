@@ -59,7 +59,7 @@
     <li><a href="#配置安装">配置安装</a></li>
     <li><a href="#使用方法">使用方法</a></li>
     <li><a href="#加入这个项目">加入这个项目</a></li>
-    <li><a href="#liceInvoice-Identificationnse">License</a></li>
+    <li><a href="#License">License</a></li>
     <li><a href="#联系作者">联系作者</a></li>
     <li><a href="#致谢">致谢</a></li>
   </ol>
