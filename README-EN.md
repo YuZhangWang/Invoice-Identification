@@ -78,9 +78,9 @@ This project used the [Synthetic Chinese String Dataset](https://github.com/senl
 
 # Configure-installationn
 
-这里可以跟着[Pytorch安装（包含cuda详细安装教程）](https://liuhuanhuan.blog.csdn.net/article/details/114157146)直接来，或者根据我博客中的[环境配置](https://yuzhang.wang/139-invoice-identification/#%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE)进行操作。这里我踩过坑了，跟着两个链接中的内容来，一步步来就可以配置成功。
+Here you can follow[Pytorch安装（包含cuda详细安装教程）](https://liuhuanhuan.blog.csdn.net/article/details/114157146)directly, or follow the[环境配置](https://yuzhang.wang/139-invoice-identification/#%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE)in my blog operate. I've run into a trap here. Follow the content in the two links and you can configure it step by step.
 
-然后就是创建Conda环境，缺什么包补什么包就行了，出了问题的话，多进行搜索，90%的问题都能解决，实在解决不了，你可以邮箱联系我，找我帮你配置一下。
+The next step is to create a Conda environment. Just fill in whatever packages are missing. If there is a problem, search more. 90% of the problems can be solved. If you really can't solve it, you can contact me by email and ask me to help you configure it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
