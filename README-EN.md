@@ -71,7 +71,7 @@
 # About
 ![product-screenshot](https://gcore.jsdelivr.net/gh/YuZhangWang/Creative-pictures02@master/img/202309131441743.png)
 
-This project used the [Synthetic Chinese String Dataset](https://github.com/senlinuc/caffe_ocr/tree/master/examples/ocr/densenet) data set, and the overall data volume reached **3,644,007**
+This project used the [Synthetic Chinese String Dataset](https://github.com/senlinuc/caffe_ocr/tree/master/examples/ocr/densenet) data set, and the overall data volume reached **3,644,007** .
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,19 +86,18 @@ The next step is to create a Conda environment. Just fill in whatever packages a
 
 # Instructions
 
-由于这里我把炼好的丹也上传上来了，所以可以直接下载。
+Since I have uploaded the prepared elixir here, you can download it directly.
 
-下载完成之后，在 *test_images* 文件夹中放入你想要识别的的发票图片，然后运行 *demo.py* 文件，等待运行。
+After the download is complete, put the invoice image you want to recognize in the *test_images* folder, then run the *demo.py* file and wait for it to run.
 
-
-等到运行结束之后，在 *test_result/test_images* 中就可以看到两种结果，一种是图片输出形式，上面标注了对文字的识别准确度，另一种是文本形式，将识别到的内容放到了文本之中。
+After the run is completed, you can see two results in *test_result/test_images*, one is in the form of picture output, with the accuracy of text recognition marked on it, and the other is in text form, where the recognized content is placed. into the text.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 # Train
 
-如果需要训练的话，请下载Releases中的[VOC2007](https://github.com/YuZhangWang/Invoice-Identification/releases/tag/Training-Data-Set)，这是其中一部分所需的训练集，除此之外，[OCR_DataSet](https://github.com/WenmuZhou/OCR_DataSet)和[crnn_chinese_characters_rec](https://github.com/Sierkinhane/crnn_chinese_characters_rec)中的内容是剩余的数据集。
+If training is required, please download [VOC2007](https://github.com/YuZhangWang/Invoice-Identification/releases/tag/Training-Data-Set) in Releases. This is part of the required training set, except in addition, the contents in [OCR_DataSet](https://github.com/WenmuZhou/OCR_DataSet) and [crnn_chinese_characters_rec](https://github.com/Sierkinhane/crnn_chinese_characters_rec) are the remaining data sets.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
